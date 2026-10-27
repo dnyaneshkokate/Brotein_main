@@ -1,16 +1,46 @@
-# React + Vite
+💪 Brotein
+Premium Fitness, Nutrition & Training Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brotein is a high-end, responsive web application designed to act as a complete digital personal trainer. Built with a focus on clean SaaS aesthetics, it offers comprehensive modules for macro tracking, precise hydration monitoring, dynamic workout splits, and long-term progress analytics. All user data is managed locally for a blazingly fast, privacy-first experience.
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend Core: React, HTML5, CSS3
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Styling & UI: Tailwind CSS, Lucide React (Icons)
 
-## React Compiler
+Animations: Framer Motion (physics-based interactions and micro-animations)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+State & Storage: React Hooks, Browser localStorage API
 
-## Expanding the ESLint configuration
+Tooling: Vite, Git, VS Code
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Core Features
+Nutrition & Macros (/macros): Dynamic caloric distribution based on physical metrics (Cut/Bulk/Maintain), interactive trajectory forecasting, and functional Zigzag Calorie Cycling.
+
+Hydration Engine (/hydration): Interactive fluid tracking with a built-in "Creatine Mode" toggle that dynamically updates daily targets, complete with optimal intake scheduling and a live intake log.
+
+Training Protocols (/exercise): An extensive database of workout splits (Push/Pull/Legs, Arnold, Bro Split, Full-Body, Upper/Lower) featuring persistent "Mark Done" tracking, embedded YouTube search links, and a dynamic Cardio Protocol engine.
+
+Progress Dashboard (/progress): A comprehensive analytics suite featuring a daily habit checklist slider, monthly hydration scaling charts, and a calendar consistency heatmap.
+
+Dynamic Settings (/settings): A fully functional user profile dashboard. Updating weight, height, age, or primary goals instantly recalculates targets across the entire application.
+
+💻 Getting Started
+To run Brotein locally on your machine:
+
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/brotein.git
+Navigate into the project directory:
+
+Bash
+cd brotein
+Install dependencies:
+
+Bash
+npm install
+Start the development server:
+
+Bash
+npm run dev
