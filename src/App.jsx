@@ -4,6 +4,12 @@ import UserInputForm from './components/UserInputForm';
 import DashboardLayout from './layouts/DashboardLayout';
 import Overview from './pages/Overview';
 import Diet from './pages/Diet';
+import Macros from './pages/Macros';
+import Hydration from './pages/Hydration';
+import Exercise from './pages/Exercise';
+import Progress from './pages/Progress';
+import Settings from './pages/Settings';
+import Dashboard from './pages/Dashboard';
 
 const LandingHeader = () => (
   <header className="px-6 pt-10 pb-12 flex items-center justify-center max-w-2xl mx-auto w-full">
@@ -24,6 +30,7 @@ const Placeholder = ({ title }) => (
 export default function App() {
   return (
     <Routes>
+      {/* 1. Public Landing & Form Route */}
       <Route path="/" element={
         <div className="min-h-screen bg-wpNavy flex flex-col font-sans">
           <LandingHeader />
@@ -35,18 +42,29 @@ export default function App() {
         </div>
       } />
 
-      <Route path="/dashboard" element={<DashboardLayout />}>
-        <Route index element={<Overview />} />
-        
-        {/* The new Diet route is now active */}
+      {/* 2. Restored the missing DashboardLayout wrapper so your Sidebar renders */}
+      <Route path="/app" element={<DashboardLayout />}>
+        <Route index element={<Dashboard />} />
+        <Route path="dashboard" element={<Dashboard />} />
         <Route path="diet" element={<Diet />} />
-        
-        <Route path="macros" element={<Placeholder title="Macro Tracking" />} />
-        <Route path="hydration" element={<Placeholder title="Hydration Tracking" />} />
-        <Route path="exercise" element={<Placeholder title="Exercise Logs" />} />
-        <Route path="progress" element={<Placeholder title="Progress Analytics" />} />
-        <Route path="settings" element={<Placeholder title="User Settings" />} />
+        <Route path="macros" element={<Macros />} />
+        <Route path="hydration" element={<Hydration />} />
+        <Route path="exercise" element={<Exercise />} />
+        <Route path="progress" element={<Progress />} />
+        <Route path="settings" element={<Settings />} />
       </Route>
+
+      {/* 3. Safety Fallback: Just in case your Sidebar links use /dashboard instead of /app */}
+      <Route path="/dashboard" element={<DashboardLayout />}>
+        <Route index element={<Dashboard />} />
+        <Route path="diet" element={<Diet />} />
+        <Route path="macros" element={<Macros />} />
+        <Route path="hydration" element={<Hydration />} />
+        <Route path="exercise" element={<Exercise />} />
+        <Route path="progress" element={<Progress />} />
+        <Route path="settings" element={<Settings />} />
+      </Route>
+      
     </Routes>
   );
 }
