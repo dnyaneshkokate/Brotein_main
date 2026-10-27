@@ -68,7 +68,7 @@ export default function Exercise() {
         day: "Push Options", color: "text-blue-500", bg: "bg-blue-500/10", border: "border-blue-500",
         exercises: [
           { name: "Barbell Bench Press", yt: "bench+press+form", img: "https://images.pexels.com/photos/3838937/pexels-photo-3838937.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Mid Chest", sets: "3 Sets", reps: "8-10 Reps", desc: "Heavy compound press. Focus on progressive overload." },
-          { name: "Overhead Press", yt: "strict+overhead+press", img: "https://images.pexels.com/photos/4167175/pexels-photo-4167175.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Shoulders", sets: "3 Sets", reps: "8-10 Reps", desc: "Brace core tight, press barbell straight up in a vertical line." },
+          { name: "Overhead Press", yt: "strict+overhead+press", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Shoulders", sets: "3 Sets", reps: "8-10 Reps", desc: "Brace core tight, press barbell straight up in a vertical line." },
           { name: "Incline Dumbbell Press", yt: "incline+dumbbell+press", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Upper Chest", sets: "3 Sets", reps: "10-12 Reps", desc: "Set bench to 30 degrees. Keep elbows tucked at 45 degrees." },
           { name: "Dips", yt: "chest+dips+form", img: "https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Lower Chest / Triceps", sets: "3 Sets", reps: "Till Failure", desc: "Lean forward for chest bias, stay upright for triceps." }
         ]
@@ -78,14 +78,14 @@ export default function Exercise() {
         exercises: [
           { name: "Pull-Ups", yt: "perfect+pullups", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Lats", sets: "3 Sets", reps: "Till Failure", desc: "Full range of motion. Dead hang at the bottom." },
           { name: "Barbell Row", yt: "barbell+row+properly", img: "https://images.pexels.com/photos/949126/pexels-photo-949126.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Mid Back", sets: "3 Sets", reps: "8-10 Reps", desc: "Hinge at the hips keeping back straight. Pull into belly button." },
-          { name: "Lat Pulldown", yt: "lat+pulldown", img: "https://images.pexels.com/photos/791176/pexels-photo-791176.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Lats", sets: "3 Sets", reps: "10-12 Reps", desc: "Use a wide grip. Lean slightly back and drive elbows down." },
+          { name: "Lat Pulldown", yt: "lat+pulldown", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Lats", sets: "3 Sets", reps: "10-12 Reps", desc: "Use a wide grip. Lean slightly back and drive elbows down." },
           { name: "Face Pulls", yt: "cable+face+pulls", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Rear Delts", sets: "3 Sets", reps: "15-20 Reps", desc: "Pull rope towards your face, flaring elbows outwards." }
         ]
       },
       {
         day: "Leg Options", color: "text-amber-500", bg: "bg-amber-500/10", border: "border-amber-500",
         exercises: [
-          { name: "Barbell Squat", yt: "barbell+squat+form", img: "https://images.pexels.com/photos/791160/pexels-photo-791160.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "3 Sets", reps: "6-8 Reps", desc: "Take a deep breath, brace core, break parallel at the bottom." },
+          { name: "Barbell Squat", yt: "barbell+squat+form", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Quads", sets: "3 Sets", reps: "6-8 Reps", desc: "Take a deep breath, brace core, break parallel at the bottom." },
           { name: "Romanian Deadlift", yt: "romanian+deadlift+RDL", img: "https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Hamstrings", sets: "3 Sets", reps: "8-10 Reps", desc: "Push hips straight back until you feel a deep hamstring stretch." },
           { name: "Leg Press", yt: "leg+press+proper+foot+placement", img: "https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "3 Sets", reps: "10-12 Reps", desc: "Place feet low and close for quad bias. Control the negative." },
           { name: "Walking Lunges", yt: "dumbbell+walking+lunges", img: "https://images.pexels.com/photos/4398884/pexels-photo-4398884.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Glutes / Quads", sets: "3 Sets", reps: "12 Steps", desc: "Take long strides to target glutes, shorter strides for quads." }
@@ -98,23 +98,23 @@ export default function Exercise() {
         exercises: [
           { name: "Bench Press", yt: "bench+press+form", img: "https://images.pexels.com/photos/3838937/pexels-photo-3838937.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Mid Chest", sets: "4 Sets", reps: "8-10 Reps", desc: "Retract scapula, plant feet firmly. Press explosively." },
           { name: "Incline DB Press", yt: "incline+dumbbell+press", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Upper Chest", sets: "3 Sets", reps: "10-12 Reps", desc: "Keep elbows tucked at 45 degrees to protect shoulders." },
-          { name: "Overhead Press", yt: "strict+overhead+press", img: "https://images.pexels.com/photos/4167175/pexels-photo-4167175.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Shoulders", sets: "3 Sets", reps: "8-10 Reps", desc: "Brace core tight, press barbell straight up in a vertical line." },
-          { name: "Tricep Pushdown", yt: "cable+tricep+pushdown", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Triceps", sets: "4 Sets", reps: "12-15 Reps", desc: "Lock elbows to your sides. Focus on the squeeze at the bottom." }
+          { name: "Overhead Press", yt: "strict+overhead+press", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Shoulders", sets: "3 Sets", reps: "8-10 Reps", desc: "Brace core tight, press barbell straight up in a vertical line." },
+          { name: "Tricep Pushdown", yt: "cable+tricep+pushdown", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Triceps", sets: "4 Sets", reps: "12-15 Reps", desc: "Lock elbows to your sides. Focus on the squeeze at the bottom." }
         ]
       },
       {
         day: "Pull Day", color: "text-emerald-500", bg: "bg-emerald-500/10", border: "border-emerald-500",
         exercises: [
           { name: "Barbell Row", yt: "barbell+row+properly", img: "https://images.pexels.com/photos/949126/pexels-photo-949126.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Mid Back", sets: "4 Sets", reps: "8-10 Reps", desc: "Hinge at the hips keeping back straight. Pull into belly button." },
-          { name: "Lat Pulldown", yt: "lat+pulldown", img: "https://images.pexels.com/photos/791176/pexels-photo-791176.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Lats", sets: "3 Sets", reps: "10-12 Reps", desc: "Use a wide grip. Lean slightly back and drive elbows down." },
+          { name: "Lat Pulldown", yt: "lat+pulldown", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Lats", sets: "3 Sets", reps: "10-12 Reps", desc: "Use a wide grip. Lean slightly back and drive elbows down." },
           { name: "Face Pulls", yt: "cable+face+pulls", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Rear Delts", sets: "3 Sets", reps: "15-20 Reps", desc: "Set cable to eye level. Pull rope towards your face." },
-          { name: "Incline DB Curl", yt: "incline+dumbbell+curl", img: "https://images.pexels.com/photos/3837142/pexels-photo-3837142.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Bicep Long Head", sets: "4 Sets", reps: "10-12 Reps", desc: "Let arms hang straight down on an incline bench to maximize stretch." }
+          { name: "Incline DB Curl", yt: "incline+dumbbell+curl", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&shttps://images.pexels.com/photos/3837142/pexels-photo-3837142.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Bicep Long Head", sets: "4 Sets", reps: "10-12 Reps", desc: "Let arms hang straight down on an incline bench to maximize stretch." }
         ]
       },
       {
         day: "Leg Day", color: "text-amber-500", bg: "bg-amber-500/10", border: "border-amber-500",
         exercises: [
-          { name: "Back Squat", yt: "barbell+squat+form", img: "https://images.pexels.com/photos/791160/pexels-photo-791160.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "4 Sets", reps: "6-8 Reps", desc: "Take a deep breath, brace core, break parallel at the bottom." },
+          { name: "Back Squat", yt: "barbell+squat+form", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwbOruTXz2OkicpuG4SQq5JJNgCDIlEKUfOiGR4oIyA&s", target: "Quads", sets: "4 Sets", reps: "6-8 Reps", desc: "Take a deep breath, brace core, break parallel at the bottom." },
           { name: "Romanian Deadlift", yt: "romanian+deadlift+RDL", img: "https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Hamstrings", sets: "3 Sets", reps: "8-10 Reps", desc: "Push hips straight back until you feel a deep hamstring stretch." },
           { name: "Leg Press", yt: "leg+press+proper+foot+placement", img: "https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "3 Sets", reps: "10-12 Reps", desc: "Place feet low and close for quad bias. Control the negative." },
           { name: "Calf Raises", yt: "standing+calf+raise", img: "https://images.pexels.com/photos/4058223/pexels-photo-4058223.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Calves", sets: "4 Sets", reps: "15-20 Reps", desc: "Pause for a full second at the deep stretch, then explode up." }
@@ -134,7 +134,7 @@ export default function Exercise() {
       {
         day: "Legs", color: "text-amber-500", bg: "bg-amber-500/10", border: "border-amber-500",
         exercises: [
-          { name: "Front Squat", yt: "how+to+front+squat", img: "https://images.pexels.com/photos/791160/pexels-photo-791160.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "4 Sets", reps: "8-10 Reps", desc: "Rest barbell on front delts. Keeps torso vertical." },
+          { name: "Front Squat", yt: "how+to+front+squat", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Quads", sets: "4 Sets", reps: "8-10 Reps", desc: "Rest barbell on front delts. Keeps torso vertical." },
           { name: "RDL", yt: "romanian+deadlift+RDL", img: "https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Hamstrings", sets: "4 Sets", reps: "8-10 Reps", desc: "Hinge movement for posterior chain." },
           { name: "Leg Extensions", yt: "leg+extension+form", img: "https://images.pexels.com/photos/4164770/pexels-photo-4164770.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "3 Sets", reps: "15 Reps", desc: "Isolation for the quad sweep. Hold at the top." }
         ]
@@ -144,8 +144,8 @@ export default function Exercise() {
         exercises: [
           { name: "Seated DB Press", yt: "seated+dumbbell+shoulder+press", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3FLIqQeEMinE-aafHwSkXHv1j7L9BABw4TWvXyfqv2yNEN9EnUDW7os&s=10", target: "Shoulders", sets: "4 Sets", reps: "8-10 Reps", desc: "Keep back flat against pad. Press without clinking." },
           { name: "Lateral Raises", yt: "dumbbell+lateral+raise", img: "https://images.pexels.com/photos/317157/pexels-photo-317157.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Side Delts", sets: "4 Sets", reps: "15-20 Reps", desc: "Pour the pitcher at the top to target side delts." },
-          { name: "Barbell Curls", yt: "barbell+bicep+curl", img: "https://images.pexels.com/photos/11096089/pexels-photo-11096089.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Biceps", sets: "4 Sets", reps: "10-12 Reps", desc: "Strict form, no swinging back." },
-          { name: "Skullcrushers", yt: "ez+bar+skullcrusher", img: "https://images.pexels.com/photos/6009292/pexels-photo-6009292.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Triceps", sets: "4 Sets", reps: "10-12 Reps", desc: "Lower bar to forehead, extend using only triceps." }
+          { name: "Barbell Curls", yt: "barbell+bicep+curl", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Biceps", sets: "4 Sets", reps: "10-12 Reps", desc: "Strict form, no swinging back." },
+          { name: "Skullcrushers", yt: "ez+bar+skullcrusher", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Triceps", sets: "4 Sets", reps: "10-12 Reps", desc: "Lower bar to forehead, extend using only triceps." }
         ]
       }
     ],
@@ -162,23 +162,23 @@ export default function Exercise() {
         day: "Back Day", color: "text-emerald-500", bg: "bg-emerald-500/10", border: "border-emerald-500",
         exercises: [
           { name: "Deadlifts", yt: "conventional+deadlift+form", img: "https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Full Back / CNS", sets: "3 Sets", reps: "5 Reps", desc: "The ultimate mass builder. Keep back neutral." },
-          { name: "Lat Pulldown", yt: "lat+pulldown", img: "https://images.pexels.com/photos/791176/pexels-photo-791176.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Lats", sets: "4 Sets", reps: "10 Reps", desc: "Wide grip for width." },
+          { name: "Lat Pulldown", yt: "lat+pulldown", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Lats", sets: "4 Sets", reps: "10 Reps", desc: "Wide grip for width." },
           { name: "Seated Cable Row", yt: "seated+cable+row", img: "https://images.pexels.com/photos/4164756/pexels-photo-4164756.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Mid Back", sets: "4 Sets", reps: "12 Reps", desc: "Pinch shoulder blades together at the peak." }
         ]
       },
       {
         day: "Leg Day", color: "text-amber-500", bg: "bg-amber-500/10", border: "border-amber-500",
         exercises: [
-          { name: "Back Squat", yt: "barbell+squat+form", img: "https://images.pexels.com/photos/791160/pexels-photo-791160.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "4 Sets", reps: "8 Reps", desc: "Core tight, below parallel." },
-          { name: "Leg Press", yt: "leg+press+form", img: "https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "4 Sets", reps: "12 Reps", desc: "Don't lock knees at the top." },
+          { name: "Back Squat", yt: "barbell+squat+form", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Quads", sets: "4 Sets", reps: "8 Reps", desc: "Core tight, below parallel." },
+          { name: "Leg Press", yt: "leg+press+form", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Quads", sets: "4 Sets", reps: "12 Reps", desc: "Don't lock knees at the top." },
           { name: "Leg Curls", yt: "lying+leg+curl", img: "https://images.pexels.com/photos/4058145/pexels-photo-4058145.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Hamstrings", sets: "4 Sets", reps: "15 Reps", desc: "Squeeze at the top of the curl." }
         ]
       },
       {
         day: "Arm Day", color: "text-wpPurple", bg: "bg-wpPurple/10", border: "border-wpPurple",
         exercises: [
-          { name: "Barbell Curls", yt: "barbell+bicep+curl", img: "https://images.pexels.com/photos/11096089/pexels-photo-11096089.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Biceps", sets: "4 Sets", reps: "10 Reps", desc: "Strict form, elbows pinned." },
-          { name: "Tricep Pushdown", yt: "cable+tricep+pushdown", img: "https://images.pexels.com/photos/17154218/pexels-photo-17154218.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Triceps", sets: "4 Sets", reps: "12 Reps", desc: "Use a rope to pull apart at the bottom." },
+          { name: "Barbell Curls", yt: "barbell+bicep+curl", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Biceps", sets: "4 Sets", reps: "10 Reps", desc: "Strict form, elbows pinned." },
+          { name: "Tricep Pushdown", yt: "cable+tricep+pushdown", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Triceps", sets: "4 Sets", reps: "12 Reps", desc: "Use a rope to pull apart at the bottom." },
           { name: "Hammer Curls", yt: "dumbbell+hammer+curl", img: "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Brachialis", sets: "3 Sets", reps: "12 Reps", desc: "Neutral grip to build arm thickness." }
         ]
       }
@@ -195,8 +195,8 @@ export default function Exercise() {
       {
         day: "Lower Body", color: "text-rose-500", bg: "bg-rose-500/10", border: "border-rose-500",
         exercises: [
-          { name: "Front Squat", yt: "front+squat", img: "https://images.pexels.com/photos/791160/pexels-photo-791160.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Quads", sets: "4 Sets", reps: "8-10 Reps", desc: "Keep elbows high." },
-          { name: "Lying Leg Curls", yt: "lying+leg+curl", img: "https://images.pexels.com/photos/4058145/pexels-photo-4058145.jpeg?auto=compress&cs=tinysrgb&w=800", target: "Hamstrings", sets: "3 Sets", reps: "12-15 Reps", desc: "Keep hips driven into pad." }
+          { name: "Front Squat", yt: "front+squat", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Quads", sets: "4 Sets", reps: "8-10 Reps", desc: "Keep elbows high." },
+          { name: "Lying Leg Curls", yt: "lying+leg+curl", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgOmRdB5kRv90Xl3W3kO5BiDbsySSJO92no9iGtSBQVtvQR-X5jwKPBk&s=10", target: "Hamstrings", sets: "3 Sets", reps: "12-15 Reps", desc: "Keep hips driven into pad." }
         ]
       }
     ]
